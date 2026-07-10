@@ -1,1 +1,0 @@
-import{a,f as e}from"../chunks/wA0AV20d.js";import"../chunks/CrUm48ho.js";var i=e('<div class="container mx-auto p-8"><h1 class="text-4xl font-bold">Welcome to My Stories</h1> <p class="mt-4 text-lg">Your SvelteKit application is ready!</p></div>');function s(t){var o=i();a(t,o)}export{s as component};
