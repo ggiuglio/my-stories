@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { page } from '$app/stores';
   import { t } from '$lib/i18n';
   
   interface MenuItem {
@@ -11,7 +12,18 @@
     {
       id: 'stories',
       labelKey: 'nav.stories',
-      items: []
+      items: [
+        {
+          id: 'hubert-herbert-emmenthal',
+          title: "Hubert e Herbert e il mistero dei buchi dell'Emmenthal",
+          href: '/stories/hubert-herbert-emmenthal'
+        },
+        {
+          id: 'pablo-maiale-bellota',
+          title: "Pablo il maiale di Bellota",
+          href: '/stories/pablo-maiale-bellota'
+        }
+      ]
     },
     {
       id: 'shorts',
@@ -24,12 +36,6 @@
       items: []
     }
   ];
-  
-  let currentPath = '';
-  
-  if (typeof window !== 'undefined') {
-    currentPath = window.location.pathname;
-  }
 </script>
 
 <aside class="w-64 h-screen bg-gray-100 sketched-border overflow-y-auto pencil-line">
@@ -52,7 +58,7 @@
                   <a
                     href={item.href}
                     class="menu-item block"
-                    class:active={currentPath === item.href}
+                    class:active={$page.url.pathname === item.href}
                   >
                     {item.title}
                   </a>
