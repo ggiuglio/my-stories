@@ -1,3 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@400;700&family=Kalam:wght@300;400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white;
+    font-family: 'Kalam', cursive;
+    background-image: 
+      repeating-linear-gradient(
+        transparent,
+        transparent 31px,
+        #e0e0e0 31px,
+        #e0e0e0 32px
+      );
+    background-size: 100% 32px;
+  }
+}
+
+@layer components {
+  .sketched-border {
+    position: relative;
+    border: 2px solid #2c2c2c;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    box-shadow: 
+      0 0 0 1px rgba(0,0,0,0.1),
+      1px 1px 0 1px rgba(0,0,0,0.05),
+      -1px -1px 0 1px rgba(0,0,0,0.05);
+  }
+  
+  .sketched-border::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 225px 15px 255px 15px/15px 255px 15px 225px;
+    pointer-events: none;
+  }
+  
+  .sketched-border::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 15px 225px 15px 255px/255px 15px 225px 15px;
+    pointer-events: none;
+  }
+  
+  .pencil-line {
+    background-image: 
+      repeating-linear-gradient(
+        transparent,
+        transparent 31px,
+        #e0e0e0 31px,
+        #e0e0e0 32px
+      );
+    background-size: 100% 32px;
+  }
+  
+  .handwritten {
+    font-family: 'Caveat', cursive;
+  }
+  
+  .sketched-button {
+    @apply sketched-border bg-white px-4 py-2 transition-all;
+    transform: rotate(-0.5deg);
+  }
+  
+  .sketched-button:hover {
+    @apply bg-gray-100;
+    transform: rotate(0deg) translateY(-1px);
+    box-shadow: 3px 3px 0 rgba(0,0,0,0.15);
+  }
+  
+  .menu-item {
+    @apply px-4 py-3 cursor-pointer transition-all;
+    border-left: 3px solid transparent;
+    font-family: 'Architects Daughter', cursive;
+  }
+  
+  .menu-item:hover {
+    @apply bg-gray-100 border-l-gray-600;
+    transform: translateX(2px);
+  }
+  
+  .menu-item.active {
+    @apply bg-gray-200 border-l-gray-800;
+    font-weight: 700;
+  }
+}
