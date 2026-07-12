@@ -10,7 +10,9 @@ export interface Translations {
 const translations: Record<Language, Translations> = {
   en: {
     nav: {
+      leopoldo: 'Leopoldo',
       stories: 'Stories',
+      otherStories: 'Other Stories',
       shorts: 'Shorts',
       blogPosts: 'Blog Posts'
     },
@@ -21,7 +23,9 @@ const translations: Record<Language, Translations> = {
   },
   it: {
     nav: {
+      leopoldo: 'Leopoldo',
       stories: 'Storie',
+      otherStories: 'Altre Storie',
       shorts: 'Racconti Brevi',
       blogPosts: 'Post del Blog'
     },
@@ -32,7 +36,9 @@ const translations: Record<Language, Translations> = {
   },
   de: {
     nav: {
+      leopoldo: 'Leopoldo',
       stories: 'Geschichten',
+      otherStories: 'Andere Geschichten',
       shorts: 'Kurzgeschichten',
       blogPosts: 'Blog-Beiträge'
     },
