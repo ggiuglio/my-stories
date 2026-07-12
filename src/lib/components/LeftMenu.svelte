@@ -22,6 +22,11 @@
           id: 'pablo-maiale-bellota',
           title: "Pablo il maiale di Bellota",
           href: '/stories/pablo-maiale-bellota'
+        },
+        {
+          id: 'bruno-bradipo-amazonia',
+          title: "Bruno: il bradipo più veloce dell'Amazonia",
+          href: '/stories/bruno-bradipo-amazonia'
         }
       ]
     },
