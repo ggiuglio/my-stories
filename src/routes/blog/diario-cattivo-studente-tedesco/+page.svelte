@@ -3,12 +3,12 @@
 </script>
 
 <div class="max-w-4xl mx-auto">
-  <div class="sketched-border bg-white p-8">
-    <h1 class="text-4xl font-bold handwritten mb-6">
+  <div class="sketched-border bg-white p-8 pencil-line">
+    <h1 class="text-4xl font-bold handwritten ruled-title">
       {title}
     </h1>
     
-    <div class="prose prose-lg max-w-none space-y-4">
+    <div class="prose prose-lg max-w-none prose-ruled">
       <p class="text-lg leading-relaxed">
         Da un paio di mesi ho cominciato a studiare seriamente il tedesco, o almeno ho cominciato a provarci con un po' più di convinzione. Dopo aver vissuto a Berlino per sei anni mi è sembrato fosse più o meno arrivato il momento.
       </p>

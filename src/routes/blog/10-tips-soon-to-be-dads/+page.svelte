@@ -3,12 +3,12 @@
 </script>
 
 <div class="max-w-4xl mx-auto">
-  <div class="sketched-border bg-white p-8">
-    <h1 class="text-4xl font-bold handwritten mb-6">
+  <div class="sketched-border bg-white p-8 pencil-line">
+    <h1 class="text-4xl font-bold handwritten ruled-title">
       {title}
     </h1>
     
-    <div class="prose prose-lg max-w-none space-y-4">
+    <div class="prose prose-lg max-w-none prose-ruled">
       <p class="text-lg leading-relaxed">
         So, you've found out you're going to become a dad. When you have a minute between the congratulatory phone calls and the frantic shopping for anything that might remotely be useful for a baby between 0 and 26 years old, here are ten things you can do to get ready for the new job.
       </p>

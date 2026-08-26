@@ -3,12 +3,12 @@
 </script>
 
 <div class="max-w-4xl mx-auto">
-  <div class="sketched-border bg-white p-8">
-    <h1 class="text-4xl font-bold handwritten mb-6">
+  <div class="sketched-border bg-white p-8 pencil-line">
+    <h1 class="text-4xl font-bold handwritten ruled-title">
       {title}
     </h1>
     
-    <div class="prose prose-lg max-w-none space-y-4">
+    <div class="prose prose-lg max-w-none prose-ruled">
       <p class="text-lg leading-relaxed">
         I tedeschi dell'est hanno davvero creduto in una società pianificata collettivamente invece che in una società in cui l'organizzazione generale esce dalla difesa del singolo dei suoi interessi personali?
       </p>

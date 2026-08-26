@@ -4,22 +4,22 @@
 </script>
 
 <div class="max-w-4xl mx-auto">
-  <div class="sketched-border bg-white p-8">
-    <h1 class="text-4xl font-bold handwritten mb-6">
+  <div class="sketched-border bg-white p-8 pencil-line">
+    <h1 class="text-4xl font-bold handwritten ruled-title">
       {title}
     </h1>
     
     <!-- Uncomment when image is available
-    <div class="mb-8">
+    <div class="ruled-figure">
       <img 
         src={image} 
         alt={title}
-        class="w-full h-auto sketched-border"
+        class="sketched-border"
       />
     </div>
     -->
     
-    <div class="prose prose-lg max-w-none space-y-4">
+    <div class="prose prose-lg max-w-none prose-ruled">
       <p class="text-lg leading-relaxed">
         Story content will go here...
       </p>

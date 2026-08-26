@@ -22,7 +22,7 @@
       <LanguageSwitcher />
     </header>
     
-    <main class="flex-1 overflow-y-auto p-8 pencil-line">
+    <main class="flex-1 overflow-y-auto p-8">
       <slot />
     </main>
   </div>

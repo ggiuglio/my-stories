@@ -5,10 +5,10 @@
 <div class="max-w-4xl mx-auto">
   <div class="sketched-border bg-white p-8 mb-6">
     <h1 class="text-5xl font-bold handwritten mb-4">
-      Welcome to My Stories
+      {$t('home.welcome')}
     </h1>
     <p class="text-xl leading-relaxed">
-      A collection of stories, shorts, and blog posts written with passion and imagination.
+      {$t('home.intro')}
     </p>
   </div>
   
@@ -18,16 +18,16 @@
         📖 {$t('nav.stories')}
       </h2>
       <p>
-        Long-form narratives and adventures that take you on a journey.
+        {$t('home.storiesDescription')}
       </p>
     </div>
     
     <div class="sketched-border bg-white p-6 hover:bg-gray-50 transition-all">
       <h2 class="text-2xl font-bold handwritten mb-3">
-        ✨ {$t('nav.shorts')}
+        ✨ {$t('nav.books')}
       </h2>
       <p>
-        Quick reads and bite-sized tales for when you're short on time.
+        {$t('home.booksDescription')}
       </p>
     </div>
     
@@ -36,7 +36,7 @@
         💭 {$t('nav.blogPosts')}
       </h2>
       <p>
-        Thoughts, reflections, and musings on writing and life.
+        {$t('home.blogPostsDescription')}
       </p>
     </div>
   </div>

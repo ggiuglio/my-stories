@@ -4,22 +4,22 @@
 </script>
 
 <div class="max-w-4xl mx-auto">
-  <div class="sketched-border bg-white p-8">
-    <h1 class="text-4xl font-bold handwritten mb-6">
+  <div class="sketched-border bg-white p-8 pencil-line">
+    <h1 class="text-4xl font-bold handwritten ruled-title">
       {title}
     </h1>
     
     <!-- Uncomment when image is available
-    <div class="mb-8">
+    <div class="ruled-figure">
       <img 
         src={image} 
         alt={title}
-        class="w-full h-auto sketched-border"
+        class="sketched-border"
       />
     </div>
     -->
     
-    <div class="prose prose-lg max-w-none space-y-4">
+    <div class="prose prose-lg max-w-none prose-ruled">
       <p class="text-lg leading-relaxed">
         Leopoldo da piccolo non aveva la coda arricciolata come la maggior parte dei maiali, da piccolo aveva una bella codina dritta e liscia che, quando lui era sveglio, stava dritta all'insù (e ogni tanto puntava qualcosa di particolarmente invitante da mangiare) ma appena si addormentava si afflosciava per terra come un pezzo di spago.
       </p>

@@ -77,8 +77,8 @@
       ]
     },
     {
-      id: 'shorts',
-      labelKey: 'nav.shorts',
+      id: 'books',
+      labelKey: 'nav.books',
       items: []
     },
     {
@@ -121,24 +121,24 @@
 </script>
 
 <aside class="w-64 h-screen bg-gray-100 sketched-border overflow-y-auto pencil-line">
-  <div class="p-6">
-    <nav class="space-y-6">
+  <div class="px-6 py-8">
+    <nav class="space-y-8">
       {#each sections as section}
         <div>
-          <h2 class="text-lg font-bold mb-2 px-4">
+          <h2 class="text-lg font-bold px-4 on-rule rule-gap">
             {$t(section.labelKey)}
           </h2>
           
           {#if section.subsections && section.subsections.length > 0}
             <!-- Render subsections -->
             {#each section.subsections as subsection}
-              <div class="mb-4">
+              <div class="rule-gap">
                 {#if subsection.id !== 'other-stories'}
-                  <h3 class="text-md font-semibold mb-1 px-4 text-gray-700">
+                  <h3 class="text-md font-semibold px-4 text-gray-700 on-rule">
                     {$t(subsection.labelKey)}
                   </h3>
                 {/if}
-                <ul class="space-y-1">
+                <ul class="menu-list">
                   {#each subsection.items as item}
                     <li>
                       <a
@@ -155,11 +155,11 @@
               </div>
             {/each}
           {:else if section.items.length === 0}
-            <div class="px-4 py-2 text-sm text-gray-600 italic">
+            <div class="px-4 text-sm text-gray-600 italic on-rule">
               Coming soon...
             </div>
           {:else}
-            <ul class="space-y-1">
+            <ul class="menu-list">
               {#each section.items as item}
                 <li>
                   <a
