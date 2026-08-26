@@ -86,6 +86,11 @@
       labelKey: 'nav.blogPosts',
       items: [
         {
+          id: 'guerra-mondi-notte-berlino',
+          title: "La guerra dei mondi nella notte di Berlino",
+          href: '/blog/guerra-mondi-notte-berlino'
+        },
+        {
           id: 'berlino-raccolta-vetro',
           title: "Berlino e la raccolta del vetro",
           href: '/blog/berlino-raccolta-vetro'

@@ -18,7 +18,7 @@
       </p>
       
       <p class="text-lg leading-relaxed">
-        Sarà per il record di non-bombardamento del quartiere o sarà perché i cimiteri in genere non vengono ritenuti obiettivi militarmente troppo rilevanti ma sta di fatto che nel vecchio cimitero di Prenzlauer Berg si possono addirittura trovare dei mattoni risalenti a prima del 1940, e senza buchi di proiettile.
+        Sarà per il record di non-bombardamento del quartiere o sarà perché i cimiteri in genere non vengono ritenuti obbiettivi militarmente troppo rilevanti ma sta di fatto che nel vecchio cimitero di Prenzlauer Berg si possono addirittura trovare dei mattoni risalenti a prima del 1940, e senza buchi di proiettile.
       </p>
       
       <p class="text-lg leading-relaxed">
@@ -34,19 +34,19 @@
       </p>
       
       <p class="text-lg leading-relaxed">
-        Io sono lì che ammiro lo spettacolo, sotto alla luce gialla e soffusa di un lampione. La tonalità e luminosità dei lampioni sono state stabilite negli anni '90 da una commissione scientifica allo scopo di disturbare il meno possibile la fauna notturna: costituita principalmente di ratti, volpi ed eroinomani.
+        Io sono lì che ammiro lo spettacolo, sotto alla luce gialla e soffusa di un lampione. La tonalità e luminosità dei lampioni sono state stabilite negli anni '90 da una commissione scientifica allo scopo di disturbare il meno possibile la fauna notturna: costituita principalmente da ratti, volpi ed eroinomani.
       </p>
       
       <p class="text-lg leading-relaxed">
-        Io sono lì di fronte a un parco storico che dorme sotto la neve in attesa di una nuova primavera, illuminato da un solo, delicatissimo, lampione e solleticato dai fiocchi di neve che mi cadono copiosi nel colletto.
+        Io sono lì di fronte a un parco storico che dorme sotto la neve in attesa di una nuova primavera: illuminato da un solo, delicatissimo, lampione e solleticato dai fiocchi di neve che mi cadono copiosi nel colletto.
       </p>
       
       <p class="text-lg leading-relaxed">
-        È tutto molto poetico, sembra una scena tratta da film o il quadro di un pittore molto romantico, ma con poca fantasia.
+        È tutto molto poetico, sembra una scena tratta da un film o il quadro di un pittore molto romantico, ma con poca fantasia.
       </p>
       
       <p class="text-lg leading-relaxed">
-        È passata quasi mezz'ora e sono ancora lì che cerco di capire se il cazzo di chardonnay che ho bevuto a capodanno stava in una bottiglia verde o marrone perché queste stramaledettissime campane del vetro sono divise per colore e qui non si vede niente.
+        È passata quasi mezz'ora e sono ancora lì che cerco di capire se il cazzo di chardonnay che ho bevuto a Capodanno stava in una bottiglia verde o marrone perché queste stramaledettissime campane del vetro sono divise per colore e qui non si vede niente.
       </p>
     </div>
   </div>
