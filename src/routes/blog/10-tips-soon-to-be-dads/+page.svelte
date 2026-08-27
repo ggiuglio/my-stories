@@ -3,7 +3,7 @@
 </script>
 
 <div class="max-w-4xl mx-auto">
-  <div class="sketched-border bg-white p-8 pencil-line">
+  <div class="sketched-border px-8 pb-8 rule-inset">
     <h1 class="text-4xl font-bold handwritten ruled-title">
       {title}
     </h1>

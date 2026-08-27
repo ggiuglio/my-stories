@@ -4,7 +4,7 @@
 </script>
 
 <div class="max-w-4xl mx-auto">
-  <div class="sketched-border bg-white p-8 pencil-line">
+  <div class="sketched-border px-8 pb-8 rule-inset">
     <h1 class="text-4xl font-bold handwritten ruled-title">
       {title}
     </h1>
@@ -18,8 +18,6 @@
     </div>
     
     <div class="prose prose-lg max-w-none prose-ruled">
-      <p class="text-center italic text-gray-600 mb-6">Di Julia & Giulio</p>
-      
       <p class="text-lg leading-relaxed">
         Hubert e Herbert vivevano in un paesino della campagna svizzera, vicino a Losanna: uno di quei piccoli paesi dove le case sono tirate a lucido come se le avessero costruite ieri, l'erba è tagliata come in un campo da golf e i topi (perché i topi sono ovunque, anche in Svizzera) sono così ben educati da non farsi vedere dai turisti per non far fare cattiva figura ai padroni di casa.
       </p>

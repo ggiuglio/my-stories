@@ -86,6 +86,11 @@
       labelKey: 'nav.blogPosts',
       items: [
         {
+          id: 'jazz-club',
+          title: "Il Jazz club",
+          href: '/blog/jazz-club'
+        },
+        {
           id: 'guerra-mondi-notte-berlino',
           title: "La guerra dei mondi nella notte di Berlino",
           href: '/blog/guerra-mondi-notte-berlino'
@@ -121,7 +126,7 @@
 </script>
 
 <aside class="w-64 h-screen bg-gray-100 sketched-border overflow-y-auto pencil-line">
-  <div class="px-6 py-8">
+  <div class="px-6 pb-8 rule-inset">
     <nav class="space-y-8">
       {#each sections as section}
         <div>

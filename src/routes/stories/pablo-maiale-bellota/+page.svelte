@@ -4,7 +4,7 @@
 </script>
 
 <div class="max-w-4xl mx-auto">
-  <div class="sketched-border bg-white p-8 pencil-line">
+  <div class="sketched-border px-8 pb-8 rule-inset">
     <h1 class="text-4xl font-bold handwritten ruled-title">
       {title}
     </h1>
@@ -18,8 +18,6 @@
     </div>
     
     <div class="prose prose-lg max-w-none prose-ruled">
-      <p class="text-center italic text-gray-600 mb-6">Di Julia & Giulio</p>
-      
       <p class="text-lg leading-relaxed">
         Nella famiglia di Pablo tutti erano prosciutti.
       </p>

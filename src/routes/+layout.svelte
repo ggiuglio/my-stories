@@ -17,12 +17,12 @@
   <LeftMenu />
   
   <div class="flex-1 flex flex-col overflow-hidden">
-    <header class="bg-white sketched-border p-4 flex justify-between items-center">
+    <header class="sketched-border px-4 h-16 flex justify-between items-center pencil-line">
       <div class="handwritten text-2xl">My Stories</div>
       <LanguageSwitcher />
     </header>
     
-    <main class="flex-1 overflow-y-auto p-8">
+    <main class="flex-1 overflow-y-auto p-8 pencil-line">
       <slot />
     </main>
   </div>

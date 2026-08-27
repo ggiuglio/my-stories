@@ -4,7 +4,7 @@
 </script>
 
 <div class="max-w-4xl mx-auto">
-  <div class="sketched-border bg-white p-8 pencil-line">
+  <div class="sketched-border px-8 pb-8 rule-inset">
     <h1 class="text-4xl font-bold handwritten ruled-title">
       {title}
     </h1>
@@ -21,15 +21,15 @@
     
     <div class="prose prose-lg max-w-none prose-ruled">
       <p class="text-lg leading-relaxed">
-        Leopoldo da piccolo non aveva la coda arricciolata come la maggior parte dei maiali, da piccolo aveva una bella codina dritta e liscia che, quando lui era sveglio, stava dritta all'insù (e ogni tanto puntava qualcosa di particolarmente invitante da mangiare) ma appena si addormentava si afflosciava per terra come un pezzo di spago.
+        Leopoldo da piccolo non aveva la coda arricciolata come la maggior parte dei maiali, ma aveva invece una bella codina dritta e liscia. Quando lui era sveglio, la coda stava dritta all'insù (e ogni tanto puntava verso qualcosa di particolarmente invitante da mangiare) ma appena si addormentava si afflosciava per terra come un pezzo di spago.
       </p>
       
       <p class="text-lg leading-relaxed">
-        In casa di Camillo Leopoldo aveva tanti posti segreti dove nascondersi per fare un pisolino, quando si è invisibili dormire sul divano non è una buona idea: si corre il rischio che qualcuno ti si sieda sopra nel bel mezzo di un sogno, ma il suo posto preferito era senza dubbio l'asciugatrice.
+        In casa di Camillo Leopoldo aveva tanti posti segreti dove nascondersi per fare un pisolino (quando si è invisibili dormire sul divano non è una buona idea: si corre il rischio che qualcuno ti si sieda sopra nel bel mezzo di un sogno) ma il suo posto preferito era senza dubbio l'asciugatrice.
       </p>
       
       <p class="text-lg leading-relaxed">
-        L'asciugatrice ha un bel cestello rotondo con la curva perfetta per la schiena di un porcellino, è sempre calda e asciutta e spesso ha quel buon profumo di bucato che concilia il sonno come un letto appena rifatto.
+        L'asciugatrice ha un bel cestello rotondo, con la curva perfetta per la schiena di un porcellino, è sempre calda e asciutta e spesso ha quel buon profumo di bucato che concilia il sonno come un letto appena rifatto.
       </p>
       
       <p class="text-lg leading-relaxed">
