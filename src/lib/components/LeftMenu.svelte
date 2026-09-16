@@ -45,6 +45,11 @@
               id: 'bruno-bradipo-amazonia',
               title: "Bruno: il bradipo più veloce dell'Amazonia",
               href: '/stories/bruno-bradipo-amazonia'
+            },
+            {
+              id: 'die-frau-chefin',
+              title: "Die Frau Chefin",
+              href: '/stories/die-frau-chefin'
             }
           ]
         },
@@ -85,6 +90,16 @@
       id: 'blogPosts',
       labelKey: 'nav.blogPosts',
       items: [
+        {
+          id: 'caccheidi',
+          title: "Le Caccheidi",
+          href: '/blog/caccheidi'
+        },
+        {
+          id: 're-dei-cagacazzi',
+          title: "Il re dei cagacazzi",
+          href: '/blog/re-dei-cagacazzi'
+        },
         {
           id: 'jazz-club',
           title: "Il Jazz club",
