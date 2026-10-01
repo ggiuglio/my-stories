@@ -1,6 +1,7 @@
 <script lang="ts">
   import { page } from '$app/stores';
-  import { t } from '$lib/i18n';
+  import { currentLanguage, t } from '$lib/i18n';
+  import { localizedHref } from '$lib/translated-pages';
   
   interface StoryItem {
     id: string;
@@ -162,10 +163,10 @@
                   {#each subsection.items as item}
                     <li>
                       <a
-                        href={item.href}
+                        href={localizedHref(item.href, $currentLanguage)}
                         class="menu-item block"
                         class:pl-8={subsection.id === 'leopoldo'}
-                        class:active={$page.url.pathname === item.href}
+                        class:active={$page.url.pathname === item.href || $page.url.pathname.startsWith(item.href + '/')}
                       >
                         {item.title}
                       </a>
@@ -183,9 +184,9 @@
               {#each section.items as item}
                 <li>
                   <a
-                    href={item.href}
+                    href={localizedHref(item.href, $currentLanguage)}
                     class="menu-item block"
-                    class:active={$page.url.pathname === item.href}
+                    class:active={$page.url.pathname === item.href || $page.url.pathname.startsWith(item.href + '/')}
                   >
                     {item.title}
                   </a>

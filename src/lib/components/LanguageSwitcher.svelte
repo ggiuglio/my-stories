@@ -1,5 +1,8 @@
 <script lang="ts">
+  import { goto } from '$app/navigation';
+  import { page } from '$app/stores';
   import { currentLanguage, t, type Language } from '$lib/i18n';
+  import { localizedHref, translatedBaseFromPath } from '$lib/translated-pages';
   
   const languages: { code: Language; label: string }[] = [
     { code: 'en', label: 'EN' },
@@ -9,6 +12,8 @@
   
   function switchLanguage(lang: Language) {
     currentLanguage.set(lang);
+    const base = translatedBaseFromPath($page.url.pathname);
+    if (base) goto(localizedHref(base, lang));
   }
 </script>
 

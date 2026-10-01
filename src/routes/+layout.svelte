@@ -18,7 +18,7 @@
   
   <div class="flex-1 flex flex-col overflow-hidden">
     <header class="sketched-border px-4 h-16 flex justify-between items-center pencil-line">
-      <div class="handwritten text-2xl">My Stories</div>
+      <div class="handwritten text-2xl">Tra il serio e l'aceto</div>
       <LanguageSwitcher />
     </header>
     

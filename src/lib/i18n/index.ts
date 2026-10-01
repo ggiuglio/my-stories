@@ -17,7 +17,7 @@ const translations: Record<Language, Translations> = {
       blogPosts: 'Blog Posts'
     },
     home: {
-      welcome: 'Welcome to My Stories',
+      welcome: "Tra il serio e l'aceto",
       intro: 'A collection of stories, books, and blog posts written with passion and imagination.',
       storiesDescription: 'Long-form narratives and adventures that take you on a journey.',
       booksDescription: 'Longer works and book projects.',
@@ -37,7 +37,7 @@ const translations: Record<Language, Translations> = {
       blogPosts: 'Post del Blog'
     },
     home: {
-      welcome: 'Benvenuti su My Stories',
+      welcome: "Tra il serio e l'aceto",
       intro: 'Una raccolta di storie, libri e post del blog scritti con passione e immaginazione.',
       storiesDescription: 'Racconti lunghi e avventure che ti portano in viaggio.',
       booksDescription: 'Opere più lunghe e progetti di libri.',
@@ -57,7 +57,7 @@ const translations: Record<Language, Translations> = {
       blogPosts: 'Blog-Beiträge'
     },
     home: {
-      welcome: 'Willkommen bei My Stories',
+      welcome: "Tra il serio e l'aceto",
       intro: 'Eine Sammlung von Geschichten, Büchern und Blog-Beiträgen, geschrieben mit Leidenschaft und Fantasie.',
       storiesDescription: 'Lange Erzählungen und Abenteuer, die dich auf eine Reise mitnehmen.',
       booksDescription: 'Längere Werke und Buchprojekte.',
