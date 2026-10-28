@@ -128,6 +128,21 @@
   .prose-ruled h3:first-child {
     margin-top: 0;
   }
+
+  /* Chapter openings in the books: set like the page title (same size, so the
+     same 8px nudge lands the baseline on a rule) and centred, with two blank
+     rules above so each chapter reads as a fresh start. */
+  .prose-ruled h2.chapter-title {
+    font-size: 2.25rem;
+    line-height: calc(2 * var(--rule-height));
+    padding-top: 8px;
+    margin: calc(2 * var(--rule-height)) 0 calc(var(--rule-height) - 8px);
+    text-align: center;
+  }
+
+  .prose-ruled h2.chapter-title:first-child {
+    margin-top: 0;
+  }
   
   .prose-ruled ul {
     list-style: disc;

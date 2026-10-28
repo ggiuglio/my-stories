@@ -85,7 +85,13 @@
     {
       id: 'books',
       labelKey: 'nav.books',
-      items: []
+      items: [
+        {
+          id: 'storia-di-un-piede',
+          title: "Storia di un piede",
+          href: '/books/storia-di-un-piede'
+        }
+      ]
     },
     {
       id: 'blogPosts',

@@ -8,6 +8,7 @@ export const originalLanguage: Record<string, Language> = {
   '/stories/bruno-bradipo-amazonia': 'it',
   '/stories/die-frau-chefin': 'de',
   '/stories/coda-leopoldo': 'it',
+  '/books/storia-di-un-piede': 'it',
   '/blog/10-tips-soon-to-be-dads': 'en',
   '/blog/berlino-raccolta-vetro': 'it',
   '/blog/caccheidi': 'it',
@@ -26,6 +27,6 @@ export function localizedHref(base: string, lang: Language): string {
 }
 
 export function translatedBaseFromPath(pathname: string): string | null {
-  const match = pathname.match(/^\/(stories|blog)\/[^/]+/);
+  const match = pathname.match(/^\/(stories|books|blog)\/[^/]+/);
   return match && match[0] in originalLanguage ? match[0] : null;
 }
